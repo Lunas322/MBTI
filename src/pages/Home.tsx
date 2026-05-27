@@ -14,7 +14,7 @@ function Home() {
 
         <HomeSuggestion />
 
-        <Button text={"🚀 인생 망치러 가기"} />
+        <Button text={"🚀 인생 망치러 가기"} navigate="/question"/>
 
         <div className="mt-6 text-center text-xs font-bold text-gray-500">
           ※ 결과에 책임 안 짐
