@@ -21,14 +21,14 @@ export const questions: Questions[] = [
   {
     id: 2,
     type: "EI",
-    question: "길 가는데 어떤 사람이 갑자기 “야!!!” 하고 뜀",
+    question: "버스에서 옆 사람이 갑자기 말 걸면?",
     options: [
       {
-        text: "같이 뜀",
+        text: "오 재밌는데? 바로 대화 시작",
         value: "E",
       },
       {
-        text: "모르는 척 전봇대 됨",
+        text: "이어폰 낀 척하면서 창밖 보기",
         value: "I",
       },
     ],
@@ -86,7 +86,7 @@ export const questions: Questions[] = [
   {
     id: 6,
     type: "SN",
-    question: "치킨 먹다가 닭다리 두 개 나옴",
+    question: "치킨 먹다가 닭다리 4개 나옴",
     options: [
       {
         text: "오 개이득",
