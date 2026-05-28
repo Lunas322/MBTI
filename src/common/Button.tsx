@@ -1,12 +1,11 @@
-import { useNavigate } from "react-router-dom"
 
-type Props = {
+
+type ButtonProps = {
     text: string
-    navigate?: string
+    onclick: ()=> void
 }
 
-function Button ({text,navigate}:Props) {
-    const nav = useNavigate()
+function Button ({text, onclick}:ButtonProps) {
     return (
                 <button
           className="
@@ -21,12 +20,12 @@ function Button ({text,navigate}:Props) {
           text-xl
           font-black
           shadow-[5px_5px_0px_#000]
-          active:translate-y-[4px]
+          active:translate-y-1
           active:shadow-none
           transition-all
           hover:rotate-1
           "
-          onClick={()=>nav(navigate?? '')}
+          onClick={onclick}
         >
           {text}
         </button>

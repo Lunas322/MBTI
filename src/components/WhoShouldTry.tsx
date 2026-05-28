@@ -1,7 +1,7 @@
 function WhoShouldTry() {
   return (
     <>
-      <div className="mt-8 bg-cyan-200 border-4 border-black rounded-3xl p-5 rotate-[-2deg]">
+      <div className="mt-8 bg-cyan-200 border-4 border-black rounded-3xl p-5 rotate-2">
         <div className="text-3xl mb-2">🤔</div>
 
         <h2 className="text-xl font-black">이런 사람에게 추천!</h2>

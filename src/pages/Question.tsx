@@ -11,7 +11,7 @@ function Question() {
 
   return (
     <div className="min-h-screen bg-yellow-200 flex justify-center px-4 py-6 overflow-hidden">
-      <div className="w-full max-w-[430px]">
+      <div className="w-full max-w-107.5">
         <div className="flex items-center justify-between mb-5">
           <div className="bg-white border-4 border-black rounded-full px-5 py-2 shadow-[4px_4px_0px_#000]">
             <span className="text-lg">
