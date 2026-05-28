@@ -31,7 +31,7 @@ function SelecteButton({ options}: SelecteButtonProps) {
         text-left
         shadow-[6px_6px_0px_#000]
         hover:-rotate-1
-        active:translate-y-[5px]
+        active:translate-y-1.25
         active:shadow-none
         transition-all
         "
@@ -51,7 +51,7 @@ function SelecteButton({ options}: SelecteButtonProps) {
         text-left
         shadow-[6px_6px_0px_#000]
         hover:rotate-1
-        active:translate-y-[5px]
+        active:translate-y-1.25
         active:shadow-none
         transition-all
         "
