@@ -1,10 +1,10 @@
-type Props = {
+type QuestionTitleProps = {
     question: string
 
 }
 
 
-function QuestionTitle ({question}:Props) {
+function QuestionTitle ({question}:QuestionTitleProps) {
 return (
         <div className="bg-white border-4 border-black rounded-[35px] p-6 shadow-[8px_8px_0px_#000] relative">
 
